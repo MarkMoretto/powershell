@@ -20,6 +20,9 @@ $counter = 0
 while ($curr_time -lt $end_time) {
 
     $wsh_shell.sendkeys("{NUMLOCK}{NUMLOCK}")
+    
+    # https://www.it-admins.com/prevent-screensaver-coming-up-with-a-powershell-script/
+    # $wsh_shell.sendkeys("{F13}")
 
     ### Random seconds between 0.1 and 10
     $rnd_secs = (Get-Random -Minimum 1 -Maximum 100) / 10
