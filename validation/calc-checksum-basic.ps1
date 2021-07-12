@@ -6,10 +6,8 @@
     $dl_folder [String] - Current user's downloads folder (windows).
 #>
 
-$import_file = "kafka_2.13-2.8.0.tgz"
-$static_hash = "3C49DCA1 147A0A24 9DD88E08 9F40AF31 A67B8207 ED2D9E22
-                94FA9A6D 41F5ED0B 006943CD 60D8E30D 7E69D760 D398F299
-                CAFCD68B 6ED7BEDF 9F93D1B7 A9E8C487"
+$import_file = "abc-file.exe"
+$static_hash = "1234ABCD4321ABCD"
 
 
 <#
